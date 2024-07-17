@@ -12,7 +12,7 @@ const Header = () => {
     },
     {
       title: "About",
-      path: "/about",
+      path: "/",
     },
     {
       title: "Services",
