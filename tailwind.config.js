@@ -23,9 +23,12 @@ module.exports = {
         carDoctorTheme: {
           "primary": "#FF3811",
           "secondary": "#151515",
-          "accent": "#37cdbe",
-          "neutral": "#3d4451",
-          "base-100": "#ffffff",
+          ".btn-primary":{
+            "color":"#fff"
+          },
+          ".btn-outline.btn-primary:hover":{
+            "color":"#fff"
+          }
         },
       },
       "dark",

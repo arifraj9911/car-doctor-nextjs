@@ -53,7 +53,7 @@ const Header = () => {
           >
             {navLink?.map((link) => (
               <Link
-                className="mr-5 font-semibold hover:text-primary duration-300"
+                className="mr-8 font-semibold hover:text-primary duration-300"
                 href={link.path}
                 key={link.path}
               >
@@ -68,7 +68,7 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">
           {navLink?.map((link) => (
             <Link
-              className="mr-5 font-semibold hover:text-primary duration-300"
+              className="mr-8 font-semibold hover:text-primary duration-300"
               href={link.path}
               key={link.path}
             >
@@ -82,7 +82,7 @@ const Header = () => {
           <HiOutlineShoppingBag className="text-xl" />
           <GoSearch className="text-xl" />
         </div>
-        <button className="btn btn-outline text-primary">Appointment</button>
+        <button className="btn btn-outline btn-primary ">Appointment</button>
       </div>
     </div>
   );
