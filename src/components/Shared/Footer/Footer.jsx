@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-secondary flex justify-between text-white p-10">
+    <footer className="footer bg-secondary flex justify-between text-white p-10 mt-20">
       <aside className="w-full mr-48">
         <Image src="/assets/logo.svg" alt="logo" height={80} width={80}></Image>
         <p>
